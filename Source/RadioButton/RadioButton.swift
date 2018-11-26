@@ -40,6 +40,11 @@ public struct RadioButtonCircleStyle {
 public struct RadioButtonColor {
     let active: UIColor
     let inactive: UIColor
+
+    public init(active: UIColor, inactive: UIColor) {
+        self.active = active
+        self.inactive = inactive
+    }
 }
 
 // MARK:- RadioButtonDelegate
